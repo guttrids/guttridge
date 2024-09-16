@@ -1,0 +1,33 @@
+{
+  "name": "itdev161",
+  "version": "1.0.0",
+  "description": "itdev161",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm server.js",
+    "server": "nodemon -r esm server.js"
+  },
+  "repository": 
+  {
+    "type": "git",
+    "url": "https://github.com/guttrids/guttridge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {"url": "https://github.com/guttrids/guttridge.git/issues"},
+  "homepage": "https://github.com/guttrids/guttridge.git#readme",
+  
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.12",
+    "esm": "^3.2.25",
+    "express": "^4.19.2",
+    "express-validator": "^7.2.0",
+    "mongoose": "^6.9.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.4"
+  }
+}
